@@ -7,7 +7,8 @@ To Implement Breadth First Search Traversal of a Graph using Python 3.
 Breadth-First Traversal (or Search) for a graph is like the Breadth-First Traversal of a tree.
 The only catch here is that, unlike trees, graphs may contain cycles so that we may come to the same node again. To avoid processing a node more than once, we divide the vertices into two categories:
 1.Visited
-2.Not Visited<
+
+2.Not Visited
 
 A Boolean visited array is used to mark the visited vertices. For simplicity, it is assumed that all vertices are reachable from the starting vertex. BFS uses a queue data structure for traversal.
 How does BFS work?
@@ -187,6 +188,9 @@ print(traversedpath)
 ```
 ## Output:
 
+![Screenshot 2024-02-25 203852](https://github.com/Dhanudhanaraj/19AI405ExpNo3/assets/119218812/5360e818-99df-4ee1-a8f0-fc01b9e1037a)
+
+![Screenshot 2024-02-25 203858](https://github.com/Dhanudhanaraj/19AI405ExpNo3/assets/119218812/9978ad7d-cbb5-4a26-8754-e7c072027f77)
 
 ## Result:
 
